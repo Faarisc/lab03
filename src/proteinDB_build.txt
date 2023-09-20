@@ -1,0 +1,87 @@
+/* Lab 3 Assignment */
+/* Creating a large-scale and persistent database using **multiple** tables */
+
+/* Name */
+/* Add Your Name Here */
+
+/* GitHub Account Name */
+/* Add Your Name Here */
+
+/* A database builder file; edit as necessary */
+/* To Run build the database, make sure that your tabulated (i.e., formatted using tabs) data files are found in the data/ directory. */
+
+/* Create your tables. Modify the below code to create your table. */
+
+DROP TABLE IF EXISTS nprot;
+
+/* done: fix the below table creation code */
+
+CREATE TABLE nprot (
+protID ,
+entryName  ,
+Status  ,
+ProteinName  ,
+GeneName  ,
+Organism  ,
+Length 
+);
+
+
+DROP TABLE IF EXISTS sprot;
+
+/* done: fix the below table creation code */
+
+CREATE TABLE sprot (
+protID ,
+entryName  ,
+Status  ,
+ProteinName  ,
+GeneName  ,
+Organism  ,
+Length 
+);
+
+
+DROP TABLE IF EXISTS mprot;
+
+/* done: fix the below table creation code */
+
+CREATE TABLE mprot (
+protID ,
+entryName  ,
+Status  ,
+ProteinName  ,
+GeneName  ,
+Organism  ,
+Length 
+);
+
+DROP TABLE IF EXISTS sars;
+
+/* done: fix the below table creation code */
+
+CREATE TABLE sars (
+protID ,
+entryName  ,
+Status  ,
+ProteinName  ,
+GeneName  ,
+Organism  ,
+Length 
+);
+
+
+/* Import your data files. Use the below `.import` code to populate the tables from above. */
+/* Note: If your data is not separated by tabs, then change the following line to reflect the delimiter. */
+
+.separator "\t"
+
+/* Find the data files in data/ and load them into SQLite3 to populate the above table.*/
+
+.import data/uniprot_n_protein.tab nprot
+.import data/uniprot_s_protein.tab sprot
+.import data/uniprot_m_protein.tab mprot
+.import data/uniprot_sars_protein.tab sars
+
+/* How to run this builder in Unox? Use the below line. Otherwise, copy and paste the lines*/
+/* cat proteinDB_build.txt | sqlite3 myProteinDB.sqlite3 */
