@@ -69,6 +69,8 @@ You are to build a database using protein data. The details may be found in your
 
  - Your queries and their results are to be submitted in the file; `writing/queries.md`.
 
+ - Complete the supplementary _thought-experiment_ questions in the File; `writing/reflection.md`.
+
 
 Note: If you would like to add screenshots to your work, please use the the following code;
 
@@ -121,7 +123,7 @@ The grade that a student receives on this assignment will have the following com
 
 - **GitHub Actions CI Build Status [up to 50%]:**: For the lab repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes. This is only checking some baseline writing and commit requirements as well as correct running of the program. An additional reduction will given if the commit log shows a cluster of commits at the end clearly used just to pass this requirement. An addition reduction will also be given if there is no commit during lab work times. All other requirements are evaluated manually.
 
-- **Mastery of Technical Writing [up to 50%]:**: Students will also receive a checkmark grade when the responses to the writing questions presented in the `reflection.md` reveal a proficiency of both writing skills and technical knowledge. To receive a checkmark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
+- **Mastery of Technical Writing [up to 50%]:**: Students will also receive a checkmark grade when the responses to the writing questions presented in the deliverable Files of the directory `writing/` that reveal a proficiency of both writing skills and technical knowledge. To receive a checkmark grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
 
 ## GatorGrade
 
