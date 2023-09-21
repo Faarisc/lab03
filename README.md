@@ -69,7 +69,7 @@ You are to build a database using protein data. The details may be found in your
 
  - Your queries and their results are to be submitted in the file; `writing/queries.md`.
 
- - Complete the supplementary _thought-experiment_ questions in the File; `writing/reflection.md`.
+ - Complete the supplementary _thought-experiment_ questions in the file; `writing/reflection.md`.
 
 
 Note: If you would like to add screenshots to your work, please use the the following code;
